@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="player player-{{isPlayingMusic ? 'play' : 'pause'}}" bindtap="play">
+  <image src="/images/map.png"/>
+  <image src="/images/invite.png"/>
+</view>
+<image class="bg" src="/images/a.png"/>
+<view class="content">
+  <image class="content-gif" src="/images/invite.png"/>
+  <view class="content-title">邀请函</view>
+  <view class="content-avatar">
+    <image src="/images/video.png"/>
+  </view>
+  <view class="content-info">
+    <view class="content-name" bindtap="callGroom">
+      <image src="/images/invite.png"/>
+      <view>217林子翔</view>
+      <view>新郎</view>
+    </view>
+    <view class="content-wedding">
+      <image src="/images/map.png"></image>
+    </view>
+    <view class="content-name" bindtap="callBride">
+      <image src="/images/video.png"/>
+      <view>zhrheuui</view>
+      <view>新娘</view>
+    </view>
+  </view>
+  <view class="content-address">
+    <view>我们诚邀您来参加我们的婚礼</view>
+    <view>时间：2019年1月28日</view>
+    <view>  地点:北京市海淀区</view>
+  </view>
+</view>
